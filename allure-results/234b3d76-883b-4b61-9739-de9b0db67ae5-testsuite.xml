@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582403755788' stop='1582403761383'>
+    <name>First test</name>
+    <title>First test</title>
+    <test-cases>
+        <test-case start='1582403755789' status='broken' stop='1582403761378'>
+            <name>First it bock</name>
+            <title>First it bock</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1582403755874' status='passed' stop='1582403760895'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f37da7d0-feb3-47f8-b617-36d35de2745b-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1582403760901' status='passed' stop='1582403761375'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='817295c9-8cb4-4003-ac28-1bbfeab79ca3-attachment.png' type='image/png' size='10942'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'setValue' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'setValue' of undefined
+                    at Context.&lt;anonymous> (D:\Leraning\webdriverio3\test\index.js:9:28)
+                    at Context.executeSync (D:\Leraning\webdriverio3\node_modules\@wdio\sync\build\index.js:56:18)
+                    at D:\Leraning\webdriverio3\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
