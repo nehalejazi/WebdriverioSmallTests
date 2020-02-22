@@ -2,7 +2,7 @@ const homePage1 = require("../pages/home.page")
 
 describe("First test", function()
 {
-  it("First it bock", function(){
+  it.skip("First it bock", function(){
 
       browser.url('/');
      

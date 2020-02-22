@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@id=\"main_b_footer_second_block\"]/ul/li"
+}

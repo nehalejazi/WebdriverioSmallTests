@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582409602158' stop='1582409610197'>
+    <name>Testing findbyelemnts method</name>
+    <title>Testing findbyelemnts method</title>
+    <test-cases>
+        <test-case start='1582409602158' status='passed' stop='1582409610195'>
+            <name>Testing it block for multiple elemnt</name>
+            <title>Testing it block for multiple elemnt</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1582409602239' status='passed' stop='1582409609747'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='87c2852a-8d95-4117-a33e-153459520506-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1582409609751' status='passed' stop='1582409610090'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5dafa3c1-5bbe-419c-b61d-4076bce841a7-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='9835842d-46b3-4b05-915d-22b20825efa8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1582409610118' status='passed' stop='1582409610189'>
+                    <name>POST /session/:sessionId/element/61b198de-2262-4845-a9c3-450b1cb5bb0d/elements</name>
+                    <title>POST /session/:sessionId/element/61b198de-2262-4845-a9c3-450b1cb5bb0d/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='478d1e16-1cc6-4858-839f-1ef18895d2cd-attachment.json' type='application/json' size='40'/>
+                        <attachment title='Response' source='80022acf-085b-451d-9f34-a86e468c6f10-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
