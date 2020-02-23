@@ -1,5 +1,25 @@
 class Bmeter{
 
+
+
+get mainHeader(){
+
+    return $('h2.home_title');
+}    
+
+get jmlink(){
+
+    return $('//a[text()="JMeter"]');
+}
+get productlink(){
+    return $('ul.list-nav-links li:nth-child(1) a');
+}
+clickOnProductlink(){
+    if(this.productlink.isDisplayed() ===true){
+        this.productlink.click();
+    }
+}
+
 get parent(){
     //return $('//ul[@class="list-nav-links"]');
     return $('ul.list-nav-links');

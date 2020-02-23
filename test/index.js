@@ -1,6 +1,6 @@
 const homePage1 = require("../pages/home.page")
 
-describe("First test", function()
+describe.skip("First test", function()
 {
   it.skip("First it bock", function(){
 
