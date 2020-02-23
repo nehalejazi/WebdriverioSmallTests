@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582474529362' stop='1582474533459'>
+    <name>Testing dropdown with Facebook</name>
+    <title>Testing dropdown with Facebook</title>
+    <test-cases>
+        <test-case start='1582474529363' status='pending' stop='1582474529363'>
+            <name>First it block with dropdown using select visible by text</name>
+            <title>First it block with dropdown using select visible by text</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1582474529363' status='pending' stop='1582474529363'>
+            <name>second it block with dropdown using select by index</name>
+            <title>second it block with dropdown using select by index</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1582474529364' status='pending' stop='1582474529364'>
+            <name>sthird it block with dropdown using select by attribute</name>
+            <title>sthird it block with dropdown using select by attribute</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1582474529364' status='passed' stop='1582474533457'>
+            <name>gettheDropdownValues month</name>
+            <title>gettheDropdownValues month</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1582474529445' status='passed' stop='1582474532451'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ffce18d0-1080-4424-8fd7-62b575dfdc5e-attachment.json' type='application/json' size='40'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1582474532457' status='passed' stop='1582474533364'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='71a28767-0034-463a-bd5b-d2c6fbcd3988-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='100e32a8-4d1a-47c8-bda2-b2f6aed1fa92-attachment.json' type='application/json' size='2914'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
