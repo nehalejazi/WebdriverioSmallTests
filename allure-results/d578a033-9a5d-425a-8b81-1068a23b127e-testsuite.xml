@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582470073400' stop='1582470080281'>
+    <name>First describe for crm scroll</name>
+    <title>First describe for crm scroll</title>
+    <test-cases>
+        <test-case start='1582470073400' status='broken' stop='1582470080279'>
+            <name>First it block for scroll</name>
+            <title>First it block for scroll</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1582470073505' status='passed' stop='1582470079164'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='66a96704-8d0c-4951-b8e8-e1f5de9e2e85-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1582470079167' status='passed' stop='1582470079282'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='471df29d-200e-4a2d-830a-e8625ec4358d-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='d7dfabee-ca8d-4e27-bfa6-c56cbe4382c3-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1582470079305' status='passed' stop='1582470079358'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='150876a0-e5ef-4ce9-bb50-177e6cf4aa28-attachment.json' type='application/json' size='5306'/>
+                        <attachment title='Response' source='f7ef5c78-80c1-45cc-ad71-2ea7935b09d9-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1582470079359' status='passed' stop='1582470079384'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='388cf18b-c06f-4db7-bd38-a723d7a9e7e2-attachment.json' type='application/json' size='726'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1582470079389' status='passed' stop='1582470080275'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2e9f58b4-2aad-4d24-bf90-30ff8da0bf22-attachment.png' type='image/png' size='295596'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>abcd.moveToElement.click is not a function</message>
+                <stack-trace>TypeError: abcd.moveToElement.click is not a function
+                    at Context.&lt;anonymous> (D:\Leraning\webdriverio3\test\scroll.view.test.js:9:24)
+                    at Context.executeSync (D:\Leraning\webdriverio3\node_modules\@wdio\sync\build\index.js:56:18)
+                    at D:\Leraning\webdriverio3\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
